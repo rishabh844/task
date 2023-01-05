@@ -26,6 +26,7 @@ public class OtpVerification extends AppCompatActivity {
 
          combineOtp= getIntent().getStringExtra("combineOtp");
          btn_verify.setOnClickListener(new View.OnClickListener() {
+
              @Override
              public void onClick(View view) {
 
